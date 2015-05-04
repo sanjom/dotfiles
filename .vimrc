@@ -1,3 +1,19 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+Plugin 'Sclarki/neonwave.vim'
+Plugin 'scrooloose/nerdtree'
+"
+" " All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " This is a modified version of Amir Salihefendic's config file.
 " For more information, check out the source.
@@ -138,7 +154,7 @@ set tm=500
 syntax enable
 
 try
-    colorscheme delek
+    colorscheme neonwave 
 catch
 endtry
 
@@ -202,6 +218,10 @@ vnoremap <silent> # :call VisualSelection('b', '')<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Moving around, tabs, windows and buffers
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Map NERDTree
+map <C-n> :NERDTreeToggle<CR>
+
 " Treat long lines as break lines (useful when moving around in them)
 map j gj
 map k gk

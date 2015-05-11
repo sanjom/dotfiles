@@ -13,6 +13,7 @@
 - Set a [global Ruby version](https://github.com/sstephenson/rbenv#rbenv-global)
 - Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) (`curl -L http://install.ohmyz.sh | sh`)
 - install [vundle](https://github.com/gmarik/Vundle.vim)
+
 ### 2. Secure Git(Hub) access
 
 - [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)

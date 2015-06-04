@@ -14,6 +14,7 @@ Note that these configurations and checklist are for a macbook.
 - Install [ghc](https://www.haskell.org/ghc/)
 - Set a [global Ruby version](https://github.com/sstephenson/rbenv#rbenv-global)
 - Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) (`curl -L http://install.ohmyz.sh | sh`)
+- install [vundle](https://github.com/gmarik/Vundle.vim)
 
 ### 2. Secure Git(Hub) access
 

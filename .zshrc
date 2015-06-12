@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="gozilla"
+ZSH_THEME="muse"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -78,3 +78,5 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 alias git='LC_ALL=de_DE git'
 alias c="clear"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

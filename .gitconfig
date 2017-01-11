@@ -1,6 +1,6 @@
 [user]
   name = Magnus Görlitz
-  email = magnus.goerlitz@googlemail.com
+  email = magnus.goerlitz@makandra.de
 
 [alias]
   c = checkout
@@ -24,7 +24,13 @@
     added = yellow
     changed = green
     untracked = cyan
-  [core]
-    whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
+
+[core]
+  whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
+  editor=nvim
+  excludesfile = /home/magnus/.gitignore
 [push]
-	default = simple
+  default = current
+[pull]
+[core]
+  excludesfile = /home/your_name/.gitignore

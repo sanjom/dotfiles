@@ -1,12 +1,12 @@
 [user]
-  name = Magnus Görlitz
-  email = magnus.goerlitz@check24.de
+  name = Jonas Müller
+  email = jonas.mueller@check24.de
 
 [alias]
-  c = checkout
-  c = commit
-  s = status
-  b = branch
+  co = checkout
+  cm = commit
+  st = status
+  br = branch
 
 [color]
     ui = auto
